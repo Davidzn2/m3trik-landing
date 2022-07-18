@@ -1113,14 +1113,31 @@ BUTTON
   line-height: 1.2;
   font-weight: 900;
 }
-.agenda{
+.pricing {
   font-family: Montserrat, sans-serif;
   color: #ffffff;
   font-size: 27px;
   line-height: 1.2;
   font-weight: 900;
+  /* display: flex; */
+  text-align: center;
 }
+.pricing table{
+  border: solid 1px white;
+  font-size: 20px;
+  width: 100%;
+}
+.pricing table th{
+  border: solid 1px white;
 
+}
+.pricing table td{
+  border: solid 1px white;
+  height: 100px;
+  width;: 100px;
+
+
+}
 .award-cards {
   padding: 40px 24px 43px;
   -webkit-box-flex: 0;
